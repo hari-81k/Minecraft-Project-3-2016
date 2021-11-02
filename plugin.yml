@@ -1,0 +1,9 @@
+name: QueueSigns
+main: net.galaxa.qs.Main
+version: 1.0
+author: Hari K
+
+commands:
+   qsign:
+    description: Set crucial locations.
+    usage: /<command>

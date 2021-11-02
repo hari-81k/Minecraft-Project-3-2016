@@ -1,0 +1,26 @@
+SoloNormalSW:
+  SignLayout:
+   1: '&a[JOIN]'
+   2: '&lSOLO'
+   3: '%queuedPlayers% In Queue'
+   4: '&1Normal Mode'
+  Servers:
+   - snsw1 localhost:25566
+   - snsw2 localhost:25567
+  JoinableMOTD: InLobby
+
+SoloInsaneSW:
+  SignLayout:
+   1: '&a[JOIN]'
+   2: '&lSOLO'
+   3: '%queuedPlayers% In Queue'
+   4: '&4Insane Mode'
+  Servers:
+   - sisw1 localhost:25568
+   - sisw2 localhost:25569
+  JoinableMOTD: InLobby
+
+
+SignLocations:
+  - world -3 71 661 SoloNormalSW
+  - world -4 71 661 SoloInsaneSW
